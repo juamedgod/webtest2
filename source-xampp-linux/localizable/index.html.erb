@@ -1,0 +1,54 @@
+---
+title: Welcome to XAMPP
+description: XAMPP is an easy to install Apache distribution containing MariaDB, PHP and Perl.
+keywords: xampp, apache, php, perl, mariadb, open source distribution
+---
+<div class="hero">
+  <div class="row">
+    <div class="large-12 columns">
+      <h1><%= image_tag("xampp-logo.svg") %><%= t('XAMPP <span>Apache + MariaDB + PHP + Perl</span>') %></h1>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="large-12 columns">
+    <h2><%= t('Welcome to XAMPP for %{platform} %{version}',
+              :platform => xampp_platform_name, :version => '@@XAMPP_VERSION@@'
+    ) %></h2>
+  </div>
+</div>
+<div class="row">
+  <div class="large-12 columns">
+    <p>
+      <%= t('You have successfully installed XAMPP on this system! Now you can start using Apache, MariaDB, PHP and other components.') %>
+      <%= t('You can find more info in the %{faq} section or check the %{howto} for getting started with PHP applications.',
+            faq: localized_link_to("FAQs", "/faq.html"),
+            howto: localized_link_to("HOW-TO Guides", "/howto.html")
+      ) %>
+    </p>
+    <p>
+      <%= t('XAMPP is meant only for development purposes. It has certain configuration settings that make it easy to develop locally but that are insecure if you want to have your installation accessible to others.') %>
+    </p>
+    <p>
+      <%= t('Start the XAMPP Control Panel to check the server status.') %>
+    </p>
+  </div>
+</div>
+<div class="row">
+  <div class="large-12 columns">
+    <h3><%= t('Community') %></h3>
+  </div>
+</div>
+<div class="row">
+  <div class="large-12 columns">
+    <p>
+      <%= t('XAMPP has been around for more than 10 years &ndash; there is a huge community behind it. You can get involved by joining our %{forums}, liking us on %{facebook}, or following our exploits on %{twitter}.',
+            twitter: link_to("Twitter", "https://twitter.com/apachefriends"),
+            facebook: link_to("Facebook", "https://www.facebook.com/we.are.xampp"),
+            mailing_list: af_localized_link_to("Mailing List", "/community.html#mailing_list"),
+            forums: link_to(t("Forums"), "https://community.apachefriends.org")
+      ) %>
+    </p>
+  </div>
+</div>
+

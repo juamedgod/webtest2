@@ -1,0 +1,60 @@
+windows:
+- version: 8.5.12
+  php_version: 8.5.12
+  whats_included: Apache 2.4.65, MariaDB 10.11.16, PHP 8.5.12, phpMyAdmin 5.2.3, OpenSSL
+    3.5.1, XAMPP Control Panel 3.3.0, Webalizer 2.23-04, Mercury Mail Transport System
+    4.63, FileZilla FTP Server 0.9.41, Tomcat 8.5.99 (with mod_proxy_ajp as connector),
+    Strawberry Perl 5.42.1.1 Portable
+  requirements: 'Windows 2008, 2012, Vista, 7, 8, 10, 11 (Important: XP or 2003 not supported)'
+  downloads:
+    x64:
+      checksum_md5: f20fa7cdb417969fd88e1e1d0824c581
+      checksum_sha1: 876d0ed73a4fa52d997a127a6d9897f90303bb37
+      checksum_sha256: 54c4c492def0734fa156843b571036bddbb7020f89e9881ba9d8c02db124263c
+      size: 191 Mb
+      url: https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.5.12/xampp-windows-x64-8.5.12-0-VS17-installer.exe
+
+- version: 8.4.27
+  php_version: 8.4.27
+  whats_included: Apache 2.4.65, MariaDB 10.11.16, PHP 8.4.27, phpMyAdmin 5.2.3, OpenSSL
+    3.5.1, XAMPP Control Panel 3.3.0, Webalizer 2.23-04, Mercury Mail Transport System
+    4.63, FileZilla FTP Server 0.9.41, Tomcat 8.5.99 (with mod_proxy_ajp as connector),
+    Strawberry Perl 5.42.1.1 Portable
+  requirements: 'Windows 2008, 2012, Vista, 7, 8, 10, 11 (Important: XP or 2003 not supported)'
+  downloads:
+    x64:
+      checksum_md5: 7fa696f971c0a7ed1749990fb1fe2f3d
+      checksum_sha1: 16c483407f38d4593772dae892f069c42df2d69a
+      checksum_sha256: 080311a5cb600f1bf8b14df0543af17eed7ff6b255510ad8497f21d126cd64a9
+      size: 190 Mb
+      url: https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.4.27/xampp-windows-x64-8.4.27-0-VS17-installer.exe
+
+- version: 8.3.36
+  php_version: 8.3.36
+  whats_included: Apache 2.4.65, MariaDB 10.11.16, PHP 8.3.36, phpMyAdmin 5.2.3, OpenSSL
+    3.5.1, XAMPP Control Panel 3.3.0, Webalizer 2.23-04, Mercury Mail Transport System
+    4.63, FileZilla FTP Server 0.9.41, Tomcat 8.5.99 (with mod_proxy_ajp as connector),
+    Strawberry Perl 5.42.1.1 Portable
+  requirements: 'Windows 2008, 2012, Vista, 7, 8, 10, 11 (Important: XP or 2003 not supported)'
+  downloads:
+    x64:
+      checksum_md5: c567da50293421485e9bf925048dc944
+      checksum_sha1: 1d3163ed383fbb99f7e59d2f1a09f4150c2806e9
+      checksum_sha256: dd54667c0c379cc137a92889857bd809c24a619f18eacb09c7376ef914391bbf
+      size: 187 Mb
+      url: https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.3.36/xampp-windows-x64-8.3.36-0-VC16-installer.exe
+
+browsers:
+- version: 8.3.12
+  php_version: 8.3.12
+  whats_included: Alpine Linux 3.20, Apache 2.4.62, MariaDB 10.11-8, PHP 8.3.12 & PEAR + multibyte (mbstring) support,
+      Perl 5.38.2, phpMyAdmin 5.2.1
+  requirements: 'Tested on Desktop versions of Chrome and derivatives'
+  downloads:
+    x64:
+      checksum_md5: Not required
+      checksum_sha1: Not required
+      checksum_sha256: Not required
+      size: '-'
+      browser_app: true
+      url: https://endor.dev/s/lamp
